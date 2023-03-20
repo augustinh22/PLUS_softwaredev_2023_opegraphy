@@ -1,0 +1,14 @@
+To add to staging area
+git add --all
+
+To check status
+git status
+
+To commit with discription
+git commit -m "your_description"
+
+To push to remote
+git push
+
+To create an origin in remote, for a loclly created branch
+git push --set-upstream origin <new_branch_name>s
