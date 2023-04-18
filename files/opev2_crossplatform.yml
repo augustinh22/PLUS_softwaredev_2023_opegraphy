@@ -1,0 +1,9 @@
+name: ope_v2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - rasterio
+  - jupyterlab
+  - geopandas
+prefix: C:\Users\xeon\miniconda3\envs\ope_v2
