@@ -9,14 +9,14 @@ Forked the repo into my personal github, then opened it on github desktop to acc
 
 **For Version 1**
 
-1. Using Anaconda prompt (miniconda3), The software_dev_v1 file was imported and given it a new name (ope_v1). 
+1. Using Anaconda prompt (miniconda3), The software_dev_v1 file is imported and given a new name (ope_v1). 
 ` conda env create -n ope_v1 --file ...software_dev_v1.yml`
 
 2. Launch anaconda_navigator using a launcher file previously created.
 
 3. Navigate to the newly created ope_v1 file, then modified it.
 
-- Modification: remove **gdal** (and its dependencies **fiona** and **geopandas**), add **autograd1.5** ( and its dependency **future 0.18.3)** 
+- Modification: remove **gdal** (and its dependencies **fiona** and **geopandas**), add **autograd1.5** (and its dependency **future 0.18.3)** 
 
 4. Back in the anaconda prompt, activate the ope_v1 environment. List packages to confirm modification 
 5. Export the now modified environment in 2 ways, using the `--no-builds` option and `--from-history` option.
